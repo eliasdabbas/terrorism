@@ -122,8 +122,7 @@ def countries_on_map(countries, years):
                                lat=[x + random.gauss(0.04, 0.03) for x in df[df['country_txt'] == c]['latitude']],
                                name=c,
                                hoverinfo='text',
-                               opacity=0.9,
-                               marker={'size': 9, 'line': {'width': .2, 'color': '#cccccc'}},
+                               marker={'size': 9, 'opacity':0.7, 'line': {'width': .2, 'color': '#cccccc'}},
                                hovertext=df[df['country_txt'] == c]['city'].astype(str) + ', ' + df[df['country_txt'] == c]['country_txt'].astype(str)+ '<br>' +
                                          [dt.datetime.strftime(d, '%d %b, %Y') for d in df[df['country_txt'] == c]['date']] + '<br>' +
                                          'Perpetrator: ' + df[df['country_txt'] == c]['gname'].astype(str) + '<br>' +
