@@ -1,2 +1,2 @@
 web: gunicorn app:server
-web: gunicorn index
+web: gunicorn python index.py
