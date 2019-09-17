@@ -6,13 +6,13 @@ dash-core-components==0.21.0
 dash-html-components==0.9.0
 dash-renderer==0.11.3
 decorator==4.2.1
-Flask==0.12.2
+Flask==1.1.1
 Flask-Compress==1.4.0
 gunicorn==19.7.1
 idna==2.6
 ipython-genutils==0.2.0
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.10.1
 jsonschema==2.6.0
 jupyter-core==4.4.0
 MarkupSafe==1.0
@@ -22,8 +22,8 @@ pandas==0.22.0
 plotly==2.5.0
 python-dateutil==2.7.0
 pytz==2018.3
-requests==2.18.4
+requests==2.22.0
 six==1.11.0
 traitlets==4.3.2
-urllib3==1.22
+urllib3==1.25.3
 Werkzeug==0.15.6
